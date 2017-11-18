@@ -1,0 +1,4 @@
+Falsiness/Truthfiness:
+Falsy values:
+- [0, false, null, '', NaN]
+Other than those expressions above, every expression will return 'true' value

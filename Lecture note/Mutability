@@ -1,0 +1,5 @@
+a major difference between primitives and objects is that objects are 'mutable' and primitives are 'immutable'
+
+Mutate: change sth without changing what 'thing' it is
+Mutable: can have its value changed without changing its identity
+Immutable: cannot have its value changed without changing its identidy

@@ -1,0 +1,27 @@
+// Funciton contract
+// A funciton contract is an agreement between the progrmmer writting the function and the programmer calling the funciton.
+// If this function is given an array of strings, it returns an object whose keys are the lengths of the strings anf the values are thenaymber of strings in the input with that length;
+//For example:
+input: ['a', 'b, 'c'];
+output: {1; 2; 3; 4}
+
+//Funciton signature
+The name, arguments to, return value from the funciton (plus any error that can be thrown, plus any "side-effect" it causes). We want to avoid side effect
+
+Structure of most of the function that will be written:
+
+function countLengths(strings) {
+  var output = {};
+
+  for (var i = 0; i < strings.length; i = i + 1) {
+
+  // usually we loop in here e.g For loop , if statement
+
+  var theString = strings[i]
+  var theStringLength = theString.length;
+
+  if ()
+
+  return output;
+}
++

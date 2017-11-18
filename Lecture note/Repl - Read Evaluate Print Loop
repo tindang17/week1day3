@@ -1,0 +1,46 @@
+Repl - Read Evaluate Print Loop
+- A kind of program that is used from the command prompt
+
+Every expression in js has both a value and a type
+  - example: "2" has a value of 2 and a numeric type
+
+Atatement is a line of JS code can be made up of many expression
+
+There is a trend in JS not to use null
+
+A major difference between primitives and objects is that objects are 'mutable' and primitives are 'immutable'
+
+Function side-effects:
+- any mutation of the objects
+Primitive values:
+// String
+// String literal expression are stuff inside quotes
+var aString = 'I\'m in a quote'
+
+//Numbers
+// Number literal expression are stuff inside quotes
+ var aNumber = 3442
+
+//Boolean
+
+var trueLiteral = true
+var falseLiteral = false
+
+// Undefined
+var undefinedLiteral = undefined
+
+//Null
+var nullLiteral = null
+
+//...
+
+//Object
+//Object literal syntax
+var literalObject = {}
+// Array Literal Syntax
+var arrayLiteral = [];
+
+var 0 = {
+  . name:
+}
+

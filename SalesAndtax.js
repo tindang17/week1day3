@@ -24,7 +24,7 @@ var companySalesData = [
 ];
 function calculateSales(companySalesData) {
   var totalSales = 0;
-  var totalSalesTax =0;
+  var totalSalesTax = 0;
 
   for (var i = 0; i < companySalesData.sales.length; i++) {
     totalSales += companySalesData.sales[i];
@@ -41,12 +41,12 @@ function calculateSales(companySalesData) {
 
   }
 
-    if (finalResult.hasOwnProperty(companySalesData.name)) {
-      finalResult[companySalesData.name].totalSales += totalSales
-      finalResult[companySalesData.name].totalSalesTax += totalSalesTax
-    } else {
-      finalResult[companySalesData.name] = {'totalSales': totalSales, 'totalSalesTax': totalSalesTax}
-    }
+  if(finalResult.hasOwnProperty(companySalesData.name)) {
+    finalResult[companySalesData.name].totalSales += totalSales
+    finalResult[companySalesData.name].totalSalesTax += totalSalesTax
+  } else {
+    finalResult[companySalesData.name] = {'totalSales': totalSales, 'totalSalesTax': totalSalesTax}
+  }
 }
 
 for (i = 0; i < companySalesData.length; i++) {

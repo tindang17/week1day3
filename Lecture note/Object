@@ -1,0 +1,9 @@
+Object
+typeof {} => object
+typeof [] => object
+What is a value of an object?
+its identidy - where they point to!
+For object to be the same, they have to point to the same identity.
+var productC = Object.assign({}, productA) //copy values of one object from one to another
+
+Properties of object can be stored in variables.
